@@ -20,6 +20,7 @@ public class Main {
         polo.marche(120);
         deuxCentSept.marche(38);
         turan.marche(200);
+
         //on affiche la quantité d'essance qui reste
 System.out.println("pour la polo "+ polo.getQuantiteEssence() + "  pour la 207 " + deuxCentSept.getQuantiteEssence()+ "  pour la turan "+ turan.getQuantiteEssence());
     }
