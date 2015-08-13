@@ -5,7 +5,7 @@
             //commence par les attribut ou mba3d na3etlk hadja mliha ;)
 
             private String marque;
-            private int distance;
+            public int distance;
             private float consommationParKm; //kemli apres sahla ^^
             private float quantiteEssence;
             private String type;
@@ -76,7 +76,7 @@
             }
 
             public void marche(int distance) {
-        float quantiteCsm = distance*(consommationParKm/1000);
+                 float quantiteCsm = distance*(consommationParKm/1000);
               quantiteEssence-=quantiteCsm;
             }
         }
